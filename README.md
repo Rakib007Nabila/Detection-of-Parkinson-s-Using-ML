@@ -1,11 +1,15 @@
 Project Overview
+
 This project aims to detect Parkinson's disease using machine learning models trained on biomedical voice measurements. The dataset used is from the UCI Machine Learning Repository:
 🔗 Parkinson's Dataset
+
 The system evaluates multiple machine learning models (Random Forest, SVM, Logistic Regression, and Neural Networks) to classify whether a patient is Healthy (0) or has Parkinson’s disease (1) based on their voice characteristics.
+
 Dataset Information
 The dataset consists of 23 biomedical voice measurements and one target variable (status):
 •	status = 0 → Healthy
 •	status = 1 → Parkinson’s disease
+
 Some key features in the dataset:
  MDVP: Fo(Hz) – Fundamental frequency
  MDVP: Jitter(%) – Measures frequency variation
