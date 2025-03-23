@@ -163,7 +163,8 @@ python parkinsons_detection.py
  
 🔗 **GitHub:** Rakib007Nabila
 
-📧 **Email:** [nabila.rakib7@gmail.com](nabila.rakib7@gmail.com)
+📧 **Email:** [📧 Email Me](mailto:nabila.rakib7@gmail.com)
+
 
 
 
