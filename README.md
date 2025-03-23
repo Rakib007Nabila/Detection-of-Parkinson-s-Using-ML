@@ -16,15 +16,15 @@ The dataset consists of 23 biomedical voice measurements and one target variable
 
 **Some key features in the dataset:**
 
- -**MDVP:** Fo(Hz) – Fundamental frequency
+ - **MDVP:** Fo(Hz) – Fundamental frequency
  
- -**MDVP:** Jitter(%) – Measures frequency variation
+ - **MDVP:** Jitter(%) – Measures frequency variation
  
- -**MDVP:** Shimmer – Measures amplitude variation
+ - **MDVP:** Shimmer – Measures amplitude variation
  
- -**HNR** – Harmonics-to-noise ratio
+ - **HNR** – Harmonics-to-noise ratio
  
- -**RPDE & DFA** – Signal complexity indicators
+ - **RPDE & DFA** – Signal complexity indicators
  
  
 # Project Workflow
@@ -46,13 +46,13 @@ The dataset consists of 23 biomedical voice measurements and one target variable
 
 We implemented and tested four different models:
 
- -Random Forest
+ - Random Forest
  
- -Support Vector Machine (SVM)
+ - Support Vector Machine (SVM)
  
- -Logistic Regression
+ - Logistic Regression
  
- -Neural Network (MLP Classifier)
+ - Neural Network (MLP Classifier)
  
 Each model was evaluated using:
 
@@ -111,11 +111,20 @@ print("Predicted Status:", "Parkinson's" if predicted_status[0] == 1 else "Healt
 
 # Visualization
 
--Feature Importance Ranking (Random Forest)
+- Feature Importance Ranking (Random Forest)
 
--Confusion Matrix for each model
+- Confusion Matrix for each model
 
--Comparison of model accuracy with selected features
+- Comparison of model accuracy with selected features
+
+# Model Performance Comparison:
+
+| **Model Name** | **Accuracy** |
+|-----------|-----------|
+| Random Forest | 94.874% |
+| Neural Network(MLP) | 94.874% |
+| SVM | 92.312% |
+| Logistic Regression | 92.312% |
 
 
 
