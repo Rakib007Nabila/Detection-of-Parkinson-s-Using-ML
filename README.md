@@ -15,6 +15,7 @@ The dataset consists of 23 biomedical voice measurements and one target variable
 
 
 Some key features in the dataset:
+
  **MDVP:** Fo(Hz) – Fundamental frequency
  **MDVP:** Jitter(%) – Measures frequency variation
  **MDVP:** Shimmer – Measures amplitude variation
