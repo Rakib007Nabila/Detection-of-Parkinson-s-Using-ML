@@ -14,17 +14,17 @@ The dataset consists of 23 biomedical voice measurements and one target variable
 •	status = 1 → **Parkinson’s disease**
 
 
-Some key features in the dataset:
+**Some key features in the dataset:**
 
- **MDVP:** Fo(Hz) – Fundamental frequency
+ -**MDVP:** Fo(Hz) – Fundamental frequency
  
- **MDVP:** Jitter(%) – Measures frequency variation
+ -**MDVP:** Jitter(%) – Measures frequency variation
  
- **MDVP:** Shimmer – Measures amplitude variation
+ -**MDVP:** Shimmer – Measures amplitude variation
  
- **HNR** – Harmonics-to-noise ratio
+ -**HNR** – Harmonics-to-noise ratio
  
- **RPDE & DFA** – Signal complexity indicators
+ -**RPDE & DFA** – Signal complexity indicators
  
  
 # Project Workflow
