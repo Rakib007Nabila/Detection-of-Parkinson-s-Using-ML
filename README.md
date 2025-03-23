@@ -88,9 +88,9 @@ Tuned Random Forest Parameters```)
 
 **Code:**
 
-(```'n_estimators': [100, 200, 300]
+( ```'n_estimators': [100, 200, 300]
 'max_depth': [10, 20, 30]
-'min_samples_split': [2, 5, 10] ```)
+'min_samples_split': [2, 5, 10] ``` )
 
 # Best Model Selection & Saving
 
@@ -108,8 +108,8 @@ The model with the highest accuracy is automatically saved and loaded for real-w
 
 **Code:**
 
-(```predicted_status = model.predict(new_patient_data)
-print("Predicted Status:", "Parkinson's" if predicted_status[0] == 1 else "Healthy")```)
+( ```predicted_status = model.predict(new_patient_data)
+print("Predicted Status:", "Parkinson's" if predicted_status[0] == 1 else "Healthy")``` )
 
 # Visualization
 
@@ -144,16 +144,16 @@ print("Predicted Status:", "Parkinson's" if predicted_status[0] == 1 else "Healt
 
 **Install Dependencies**
 
-(```pip install pandas numpy scikit-learn seaborn matplotlib tensorflow joblib```)
+( ```pip install pandas numpy scikit-learn seaborn matplotlib tensorflow joblib``` )
 
 **Clone Repository**
 
-(```git clone https://github.com/yourusername/Parkinson-Detection-ML.git
-cd Parkinson-Detection-ML```)
+( ```git clone https://github.com/yourusername/Parkinson-Detection-ML.git
+cd Parkinson-Detection-ML``` )
 
 **Run the Jupyter Notebook**
 
-(```jupyter notebook```)
+( ```jupyter notebook``` )
 
 or, run the Python script directly:
 
