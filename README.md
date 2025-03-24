@@ -53,7 +53,7 @@ We implemented and tested four different models:
  - Logistic Regression
  
  - Neural Network (MLP Classifier)
- - 
+
  
 Each model was evaluated using:
 
@@ -82,15 +82,18 @@ Tuned SVM Parameters
 
 **Code:**
 
-(```'C': [0.1, 1, 10]
+```
+'C': [0.1, 1, 10]
 'kernel': ['linear', 'rbf']
-Tuned Random Forest Parameters```)
+Tuned Random Forest Parameters
+```
 
 **Code:**
 
-( ```'n_estimators': [100, 200, 300]
+```'n_estimators': [100, 200, 300]
 'max_depth': [10, 20, 30]
-'min_samples_split': [2, 5, 10] ``` )
+'min_samples_split': [2, 5, 10]
+``` 
 
 # Best Model Selection & Saving
 
@@ -108,8 +111,10 @@ The model with the highest accuracy is automatically saved and loaded for real-w
 
 **Code:**
 
-( ```predicted_status = model.predict(new_patient_data)
-print("Predicted Status:", "Parkinson's" if predicted_status[0] == 1 else "Healthy")``` )
+```
+predicted_status = model.predict(new_patient_data)
+print("Predicted Status:", "Parkinson's" if predicted_status[0] == 1 else "Healthy")
+``` 
 
 # Visualization
 
@@ -119,7 +124,7 @@ print("Predicted Status:", "Parkinson's" if predicted_status[0] == 1 else "Healt
 
 - Comparison of model accuracy with selected features
 
-# Model Performance Comparison:
+# Model Performance Comparison
 
 | **Model Name** | **Accuracy** |
 |-----------|-----------|
@@ -144,24 +149,30 @@ print("Predicted Status:", "Parkinson's" if predicted_status[0] == 1 else "Healt
 
 **Install Dependencies**
 
-( ```pip install pandas numpy scikit-learn seaborn matplotlib tensorflow joblib``` )
+```
+pip install pandas numpy scikit-learn seaborn matplotlib tensorflow joblib
+``` 
 
 **Clone Repository**
 
-( ```git clone https://github.com/yourusername/Parkinson-Detection-ML.git
-cd Parkinson-Detection-ML``` )
+```git clone https://github.com/yourusername/Parkinson-Detection-ML.git
+cd Parkinson-Detection-ML
+```
 
 **Run the Jupyter Notebook**
 
-( ```jupyter notebook``` )
+```
+jupyter notebook
+``` 
 
 or, run the Python script directly:
 
 python parkinsons_detection.py
 
+ 
  # Contact & Contribution
  
-🔗 **GitHub:** Rakib007Nabila
+🔗 **GitHub:** [Rakib007Nabila](https://github.com/Rakib007Nabila)
 
 [📧 Email Me](mailto:nabila.rakib7@gmail.com)
 
