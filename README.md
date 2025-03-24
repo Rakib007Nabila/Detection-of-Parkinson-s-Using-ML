@@ -167,7 +167,9 @@ jupyter notebook
 
 or, run the Python script directly:
 
+```
 python parkinsons_detection.py
+```
 
  
  # Contact & Contribution
